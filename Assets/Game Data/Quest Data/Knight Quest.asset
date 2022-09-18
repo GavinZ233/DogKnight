@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005703b0d4d75654799745d1099c530a, type: 3}
+  m_Name: Knight Quest
+  m_EditorClassIdentifier: 
+  questName: "\u6D88\u706D\u4E0D\u5B89\u56E0\u7D20"
+  description: "\u6D88\u706D\u4E24\u53EA\u53F2\u83B1\u59C6\uFF0C\u4E00\u53EA\u9F9F\u9F9F\u3002"
+  isStarted: 0
+  isComplete: 0
+  isFinished: 0
+  questRequires:
+  - name: Slime
+    requireAmount: 2
+    currentAmount: 0
+  - name: TurtleShell
+    requireAmount: 1
+    currentAmount: 0
+  rewards:
+  - itemData: {fileID: 11400000, guid: 7beee56c4959aac41b8b91dce600ee8d, type: 2}
+    amount: 1
+  - itemData: {fileID: 11400000, guid: c42e28070c10add449bfd9e2a487380d, type: 2}
+    amount: 3

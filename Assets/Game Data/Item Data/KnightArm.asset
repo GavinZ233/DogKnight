@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468b0486994955042b987476f8a16b2e, type: 3}
+  m_Name: KnightArm
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemName: "\u9A91\u58EB\u88C5\u7532"
+  itemIcon: {fileID: 21300000, guid: 12997fa77006583439c2a5bb221c1f0c, type: 3}
+  itemAmount: 1
+  desctiption: "\u8001\u9A91\u58EB\u7684\u88C5\u7532\uFF0C\u575A\u56FA\u65E0\u6BD4"
+  stackable: 0
+  weaponProfab: {fileID: 0}
+  weaponData: {fileID: 0}
+  weaponAnimator: {fileID: 0}
+  armProfab: {fileID: 0}
+  armData: {fileID: 11400000, guid: 929f46b083b0a9344a713fd5bdd64cd7, type: 2}
+  useableData: {fileID: 0}

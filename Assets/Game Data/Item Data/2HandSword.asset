@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468b0486994955042b987476f8a16b2e, type: 3}
+  m_Name: 2HandSword
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: "\u75DB\u5200"
+  itemIcon: {fileID: 21300000, guid: 9ba68f0ca6c05224d9cc60c56f6854d6, type: 3}
+  itemAmount: 1
+  desctiption: "\u4E00\u628A\u4F7F\u6301\u5200\u8005\u4E0E\u88AB\u51FB\u8005\u90FD\u5341\u5206\u75DB\u82E6\u7684\u5200"
+  stackable: 0
+  weaponProfab: {fileID: 170966902542207656, guid: e56626a3c3aa63a4a965b5a5bcf7a4de, type: 3}
+  weaponData: {fileID: 11400000, guid: 102c46923d51caf4cacd79992ddee9a4, type: 2}
+  weaponAnimator: {fileID: 22100000, guid: 138d5f9b05ea9764b964ffbca9579206, type: 2}
+  useableData: {fileID: 0}
